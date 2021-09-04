@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import SightBar from "./component/sight-bar";
+import SalesCardDetails from "./component/sales-card-details";
+import Graph from "./component/graph";
+import Table from "./component/table";
+import DashboardLayout from "./component/dashboard-layout";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <DashboardLayout/>
+
     </div>
   );
 }
